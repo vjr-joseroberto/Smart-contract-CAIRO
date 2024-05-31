@@ -24,7 +24,6 @@ mod Vote {
     const NO: u8 = 0_u8;
 
     /// @dev Structure that stores vote counts and voter states
-    //olaaar
     #[storage]
     struct Storage {
         yes_votes: u8,
