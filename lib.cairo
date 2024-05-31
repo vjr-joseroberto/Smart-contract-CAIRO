@@ -57,6 +57,7 @@ mod Vote {
     }
 
     /// @dev Represents a vote that was cast
+    // NOTE
     #[derive(Drop, starknet::Event)]
     struct VoteCast {
         voter: ContractAddress,
